@@ -1371,7 +1371,7 @@
     display: none;
   }
   #app-mount .form-3gdLxP .stickerButton-1-nFh2:hover svg {
-    background: rgb(var(--secondaryaccent));
+    background: rgb(var(--sticker-hover-color));
   }
   #app-mount .channelTextArea-1FufC0 {
     background: var(--input-background);
@@ -1433,7 +1433,7 @@
     display: none;
   }
   #app-mount .buttons-uaqb-5 > button[aria-label]:hover svg {
-    background: rgb(var(--trindaryaccent));
+    background: rgb(var(--nitrogift0hover-color));
   }
   #app-mount .upload-3GTSF9 {
     background: rgba(255, 255, 255, 0.02);
@@ -4353,8 +4353,8 @@
     --background-image: url("https://i.imgur.com/KzmNMul.png"); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
     --background-blur: 5px; /* Blur intensity of --background-image | Must end in px | Default: 0px */
     --accent: 231, 0, 208; /* Colour used around the app. | Values are in R,G,B format. | Default: 0, 231, 169 */
-    --secondaryaccent: 219, 231, 0; /* Colour used around the app. | Values are in R,G,B format. | Default: 0, 231, 169 */
-    --trindaryaccent: 231, 0, 208; /* Colour used around the app. | Values are in R,G,B format. | Default: 0, 231, 169 */
+    --sticker-hover-color: 219, 231, 0; /* Colour used around the app. | Values are in R,G,B format. | Default: 0, 231, 169 */
+    --nitrogift-hover-color: 231, 0, 208; /* Colour used around the app. | Values are in R,G,B format. | Default: 0, 231, 169 */
     --channels-width: 256px; /* Width of the channels list. | Default: 300px */
     --guilds-width: 70px; /* Width of the server list. | Default: 105px */
     --members-width: 300px; /* Width of the members list. | Default: 280px */
